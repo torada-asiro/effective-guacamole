@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITエンジニア 年収UP診断 | 3分で適正年収がわかる</title>
+  <meta name="description" content="あなたのスキル・経験から市場での適正年収を無料で診断。IT・Webエンジニア特化の年収査定ツール。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=20260331-1">
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <div class="header-inner">
+        <div class="logo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+          </svg>
+          <span>エンジニア年収診断</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="progress-wrap">
+      <div class="progress-track">
+        <div class="progress-fill" id="progress-bar"></div>
+      </div>
+      <span class="progress-counter" id="progress-counter"></span>
+    </div>
+
+    <main id="main-content" class="main-content">
+      <!-- Dynamic content rendered by JS -->
+    </main>
+
+    <footer class="app-footer">
+      <p>Market data references: doda, 求人ボックス, 経済産業省 IT人材白書</p>
+    </footer>
+  </div>
+
+  <script src="js/salary-data.js?v=20260331-1"></script>
+  <script src="js/questions.js?v=20260331-1"></script>
+  <script src="js/app.js?v=20260331-1"></script>
+</body>
+</html>
